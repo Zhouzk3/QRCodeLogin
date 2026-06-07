@@ -13,7 +13,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 @Controller
-@RequestMapping(value = "auth")
+@RequestMapping(value = "/auth")
 public class AuthController {
 
     @Autowired
